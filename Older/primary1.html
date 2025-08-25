@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            background: #fff;
+        }
+        .item{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height:70vh;
+
+        }
+        .item h1{
+            text-align: center;
+            margin:0 auto;
+            color:#fff;
+            animation: ani  5s infinite;
+        }
+        @keyframes ani {
+            0%{
+                transform: rotate(0deg);
+                text-shadow: 9px 9px 9px red;
+                color:chocolate
+            }
+            25%{
+                transform: rotate(90deg);
+                text-shadow: 9px 9px 9px  gold;
+                color:crimson
+            }
+            50%{
+                transform: rotate(130deg);
+                text-shadow: 9px 9px 9px blue;
+                color:yellow
+
+            }
+            75%{
+                transform:rotate(180deg);
+                text-shadow: 9px 9px 9px rgba(159, 216, 112, 0.356);
+                color: white;
+            }
+            100%{
+                transform: rotate(360deg);
+                text-shadow: 9px 9px 9px purple;
+                color: slateblue;
+            }
+            
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="image"href="https://images.pexels.com/photos/10824949/pexels-photo-10824949.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    <title>Javascript Tutorial Hell</title>
+</head>
+<body>
+    <div class="item">
+    <h1>(: All About Javascript :)</h1>
+     </div>
+
+     
+     <script src="DOM.js"></script>
+    <script src="pimary1.js"></script>
+</body>
+</html>
