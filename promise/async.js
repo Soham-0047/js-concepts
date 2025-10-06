@@ -72,7 +72,6 @@ const postAxios = async() => {
 }
 
 //Another way for POST request
-
 function anotherAxios() {
     axios.post("https://jsonplaceholder.typicode.com/posts", {title: "foo", body: "bar", userId: 1,any: 34}).then(res => console.log(res.data)).catch(err => console.log(err));
 }
